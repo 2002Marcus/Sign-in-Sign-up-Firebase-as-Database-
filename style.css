@@ -1,0 +1,375 @@
+style.css
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+   
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #0fb01f;
+}
+p{
+    color: #000000;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+p{
+    color: #0fb01f;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2-info{
+    color: #ffffff;
+}
+
+.btn{
+    display: inline-block;
+    background:#0f6b68;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #22cf44;
+}
+
+.header{
+    background-color: #d6d6d6;
+    color:#0fb01f
+}
+.header .row{
+    margin-top: 70px;
+}
+
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    transition: transform 0.5s;
+}
+.col-3 img{
+    width: 100%;
+}
+
+.col-3:hover{
+    transform: translateY(-10px);
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%; 
+}
+.orochi {
+    width: 600px;
+    height: 600px;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #0fb01f;
+}
+.title::after{
+    content: ' ';
+    background: #0fb01f;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #ffffff;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating{
+    color: #13d6e4;
+}
+.col-4:hover{
+    transform: translateY(-10px);
+}
+
+
+.gif-bg {
+    background-color: #000000;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+ /* ---------------------------------------------------------- feedback ---------------------------------------------------------- */ */
+
+.feedback{
+    padding: 100px;
+}
+.feedback .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+
+}
+
+.feedback .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+   
+}
+p{
+    color: #d1d6d1;
+}
+
+.feedback .col-3:hover{
+transform: translateY(-10px);
+}
+.col-3 h3{
+    color: #fff;
+}
+
+
+/* --------------------------------------------------- account page ------------------------------------------------- */
+
+.account-page {
+    background-color: #000000;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 50vh; /* Set height to full viewport height */
+    padding: 2px 0; /* Adjust top and bottom padding */
+}
+
+.container22 {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.col-22 {
+    width: 50%; /* Adjust width to fill half of the container */
+}
+
+.form-container {
+    background: #000000;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.form-container h2 {
+    color: #ffffff;
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    transition: transform 1s;
+    position: relative;
+}
+
+form input {
+    width: calc(100% - 22px);
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+form .btn {
+    width: calc(100% - 22px);
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    background: #3d6630;
+    color: #ffffff;
+}
+
+form .btn:focus {
+    outline: none;
+}
+
+
+
+/* ------------------------------------------------------- footer ------------------------------------------------------- */
+
+.footer{
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #ffffff;
+}
+.footer h3{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+ul .fb:hover{
+    text-decoration: underline;
+}
+ul .ig:hover{
+    text-decoration: underline;
+}
+ul .twtr:hover{
+    text-decoration: underline;
+}
+ul .yt:hover{
+    text-decoration: underline;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #ffffff;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+/* ---------------------------------------------------- media query for menu ---------------------------------------------------- */
+
+@media only screen and (max-width: 800px){
+
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #000000;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+}
+
+/*-------------------------- media query for less than 600 screen size --------------------------------------- */
+
+@media only screen and (max-width: 600px){
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
+    .single-product .row{
+        text-align: left;
+    }
+    .single-product .col-2{
+        padding: 20px 0;
+    }
+    .single-product h1{
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
